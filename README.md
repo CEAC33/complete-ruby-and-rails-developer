@@ -165,7 +165,7 @@ Sublime Text:
 
 print "Hello World\n" # it doesn't include the newline
 puts "Hello World" # returns Nil
-p "Hello World" # return the string
+p "Hello World" # returns the string
 
 greeting = "Hello World"
 
@@ -191,3 +191,55 @@ p "Hello World" # return the string
 ```bash
 $ ruby playground.rb
 ```
+
+### Working with Strings part 1
+
+**Running Local Interactive Ruby Shell**
+
+```bash
+$ irb
+```
+
+```ruby
+# String concatenation
+first_name = "Carlos"
+last_name = "Avila"
+puts first_name + " " + last_name
+
+# String interpolation -> Only works with double quotes
+puts "My first name is #{first_name} and my last name is #{last_name}"
+full_name = "#{first_name} #{last_name}"
+
+# Methods, how to find them
+full_name.class
+10.class
+10.0.class
+first_name.methods
+
+# Common methods
+10.to_s
+10.to_s.class
+full_name.length
+full_name.reverse
+full_name.capitalize
+full_name.empty?
+"".empty?
+"".nil?
+nil.nil?
+sentence = "Welcome to the jungle"
+sentence.sub("the jungle", "utopia")
+
+# Variable assignment
+first_name = "Carlos"
+new_first_name = first_name
+new_first_name
+first_name = "John"
+new_first_name
+
+# Escaping
+'the new first name is #{new_first_name}'
+"the new first name is \#{new_first_name}"
+'Carlos asked \'Hey John, how are you doing?\''
+```
+
+
