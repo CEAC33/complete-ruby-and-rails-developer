@@ -184,10 +184,9 @@ say_hello "Hello World Ruby is grat!"
 $ touch playground.rb
 ```
 
-playground.rb
-```ruby
+<blockquote> <code><b>playground.rb</b></code> <pre>
 p "Hello World" # return the string
-```
+</pre> </blockquote>
 
 ```bash
 $ ruby playground.rb
