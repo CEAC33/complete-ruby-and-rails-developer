@@ -144,3 +144,51 @@ Atom:
 Sublime Text:
 - https://www.sublimetext.com/3
 
+## The Ruby Programming Language
+
+### How to get Free Live Help
+
+- https://discordapp.com/invite/0fcPkObEsGTjNSvQ
+
+### Intro to Ruby
+
+- http://www.ruby-lang.org/en/
+
+**Running it on Repl**
+- https://repl.it/languages/ruby
+
+```ruby
+# Say hello world in multiple ways
+# Simple put string
+# Using a variable
+# Using a method
+
+print "Hello World\n" # it doesn't include the newline
+puts "Hello World" # returns Nil
+p "Hello World" # return the string
+
+greeting = "Hello World"
+
+puts greeting
+
+def say_hello(thing_to_say)
+  puts thing_to_say
+end
+
+say_hello "Hello World Ruby is grat!"
+```
+
+**Running it locally**
+
+```bash
+$ touch playground.rb
+```
+
+playground.rb
+```ruby
+p "Hello World" # return the string
+```
+
+```bash
+$ ruby playground.rb
+```
